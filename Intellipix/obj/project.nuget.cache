@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "hdc5bRF4J7wLKGBqmDLbay6Z78CwCkNsXi2kD851TlyIULtUXNvcxKhEwguWx5pjIiLBudyr1WKN3nUWWS+BxA==",
+  "success": true,
+  "projectFilePath": "C:\\Wintellect\\Courses\\Microsoft\\SLG\\demos\\Intellipix\\Intellipix\\Intellipix.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\sumid\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.17.0\\microsoft.visualstudio.azure.containers.tools.targets.1.17.0.nupkg.sha512",
+    "C:\\Users\\sumid\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.28\\microsoft.netcore.app.host.win-x64.3.1.28.nupkg.sha512"
+  ],
+  "logs": []
+}
