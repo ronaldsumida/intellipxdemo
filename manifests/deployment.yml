@@ -1,0 +1,19 @@
+apiVersion : apps/v1
+kind: Deployment
+metadata:
+  name: ronaldsumidaintellipxdemo 
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: ronaldsumidaintellipxdemo
+  template:
+    metadata:
+      labels:
+        app: ronaldsumidaintellipxdemo 
+    spec:
+      containers:
+        - name: ronaldsumidaintellipxdemo 
+          image: intellipix20220914105637.azurecr.io/ronaldsumidaintellipxdemo
+          ports:
+          - containerPort: 80
