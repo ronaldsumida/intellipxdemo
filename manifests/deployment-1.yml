@@ -1,0 +1,19 @@
+apiVersion : apps/v1
+kind: Deployment
+metadata:
+  name: "intellipixaks-4a67"
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: "intellipixaks-4a67"
+  template:
+    metadata:
+      labels:
+        app: "intellipixaks-4a67"
+    spec:
+      containers:
+        - name: "intellipixaks-4a67"
+          image: "intellipix20220914105637.azurecr.io/intellipixaks"
+          ports:
+          - containerPort: 80
